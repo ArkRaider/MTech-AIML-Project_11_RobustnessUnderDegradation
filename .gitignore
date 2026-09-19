@@ -2,9 +2,11 @@ __pycache__/
 *.py[cod]
 *$py.class
 .ipynb_checkpoints/
-*.ipynb
-data/
-results/
+
+# Ignore raw CIFAR binary batches/archives inside data/
+data/cifar-10-batches-py/
+data/*.tar.gz
+
 .env
 venv/
 env/
