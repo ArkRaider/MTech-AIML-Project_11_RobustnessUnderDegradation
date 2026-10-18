@@ -1,10 +1,10 @@
-# 🔬 Project 11 — Robustness Under Degradation
+#  Project 11 — Robustness Under Degradation
 
 **M.Tech AI/ML | Image Classification Robustness Analysis**
 
 ---
 
-## 📌 What This Project Is About
+##  What This Project Is About
 
 Modern deep learning models are typically trained and evaluated on **clean, well-lit, properly formatted images**. But in the real world, image quality is rarely perfect — cameras blur, sensors add noise, lighting fails, and angles vary.
 
@@ -16,7 +16,7 @@ We evaluate a **pre-trained ResNet-20 model** on the **CIFAR-10** dataset by sys
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 MTech-AIML-Project_11_RobustnessUnderDegradation/
@@ -50,7 +50,7 @@ MTech-AIML-Project_11_RobustnessUnderDegradation/
 
 ---
 
-## 🧠 Model & Dataset
+##  Model & Dataset
 
 ### Dataset: CIFAR-10
 - **60,000** colour images, each **32×32 pixels**
@@ -64,7 +64,7 @@ MTech-AIML-Project_11_RobustnessUnderDegradation/
 
 ---
 
-## ⚙️ Degradations Applied
+##  Degradations Applied
 
 Each degradation is applied at **severity levels 1 through 5** (0 = clean baseline).
 
@@ -90,7 +90,7 @@ Each degradation is applied at **severity levels 1 through 5** (0 = clean baseli
 
 ---
 
-## 🚀 Setup & Installation
+##  Setup & Installation
 
 ### Prerequisites
 - Python **3.10 or newer**
@@ -123,7 +123,7 @@ This installs: `torch`, `torchvision`, `scikit-learn`, `pandas`, `matplotlib`, `
 
 ---
 
-## ▶️ Running the Experiment
+##  Running the Experiment
 
 ### Option A: Jupyter Notebook (Recommended)
 
@@ -148,7 +148,7 @@ Run the cells **top-to-bottom**. The notebook will:
 
 ---
 
-## 🔮 How to Use the Model to Predict on Your Own Image
+##  How to Use the Model to Predict on Your Own Image
 
 You can use the `src/model.py` and `src/preprocessing.py` modules to run inference on any image of your own.
 
@@ -199,7 +199,7 @@ print(f"Confidence: {confidence[0]*100:.1f}%")
 
 ---
 
-## 📈 Understanding the Results
+##  Understanding the Results
 
 After running the notebook, check:
 
@@ -216,7 +216,7 @@ After running the notebook, check:
 
 ---
 
-## 🔄 Regenerating Project Files
+##  Regenerating Project Files
 
 ```bash
 # Regenerate the Jupyter notebook
@@ -228,7 +228,7 @@ python generate_presentation.py
 
 ---
 
-## 🗒️ Key Design Decisions
+##  Key Design Decisions
 
 1. **Why ResNet-20?** It's a well-known, compact, CIFAR-10-native model with documented baseline accuracy (~92% on clean data), making degradation drops easy to observe.
 
@@ -240,7 +240,7 @@ python generate_presentation.py
 
 ---
 
-## 📚 References
+##  References
 
 - He et al. (2016) — *Deep Residual Learning for Image Recognition*
 - Krizhevsky (2009) — *Learning Multiple Layers of Features from Tiny Images* (CIFAR-10)
