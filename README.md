@@ -144,7 +144,7 @@ Run the cells **top-to-bottom**. The notebook will:
 4. Compute metrics and save results to `results/`
 5. Generate and display visualisation plots
 
-> ⏱️ Expected runtime: **~5–15 minutes** on CPU, **~1–3 minutes** on GPU.
+>  Expected runtime: **~5–15 minutes** on CPU, **~1–3 minutes** on GPU.
 
 ---
 
