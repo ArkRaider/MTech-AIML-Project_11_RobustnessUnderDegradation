@@ -77,7 +77,7 @@ Each degradation is applied at **severity levels 1 through 5** (0 = clean baseli
 
 ---
 
-## 📊 Evaluation Metrics
+##  Evaluation Metrics
 
 | Metric | Description |
 |---|---|
